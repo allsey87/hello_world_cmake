@@ -9,3 +9,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add an executable with the above sources
 add_executable(hello_world src/main.cxx)
+
+install(TARGETS hello_world DESTINATION bin)
